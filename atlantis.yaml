@@ -1,0 +1,15 @@
+version: 3
+projects:
+- name: poc
+  dir: .
+  workspace: poc
+  workflow: poc
+  autoplan:
+    enabled: true
+
+- name: poc1
+  dir: .
+  workspace: poc1
+  workflow: poc
+  autoplan:
+    enabled: true
